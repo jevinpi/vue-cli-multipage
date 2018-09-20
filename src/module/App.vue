@@ -1,20 +1,15 @@
 <template>
   <div id="app">
-    <img src="./images/logo.png">
-    <div>详情内容</div>
-    <List />
+      <List />
   </div>
 </template>
 
 <script>
   import 'common/css/reset.css';
-  import Hello from 'components/Hello/Hello'
-  import List from 'components/list'
-
+  import List from 'components/list';
   export default {
     name: 'app',
     components: {
-      Hello,
       List
     }
   }

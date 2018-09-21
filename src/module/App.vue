@@ -1,6 +1,7 @@
 <template>
   <div id="app">
       <List />
+      <div class='test'>test TEXT</div>
   </div>
 </template>
 
@@ -14,6 +15,15 @@
     }
   }
 </script>
+<style lang="less">
+  @import '../common/less/common.less';
+  .test{
+    color: @BASECOLOR
+  }
+  .test2{
+    color: @COLORTWO
+  }
+</style>
 
 <style>
   #app {
